@@ -1,0 +1,2 @@
+define(["knockout","jquery","config/config"],function(e,n,t){function i(){var i=this;i.currentTheme=e.observable(t.THEME),i.themeHref=e.computed(function(){return n("#loadingImg").attr("src","theme/"+i.currentTheme()+"/loading.gif"),"theme/"+i.currentTheme()+"/css.css"}),i.themeClickHandler=function(e,n,t){this.currentTheme(t)}}function r(){e.applyBindings(new i,n("#themeSection")[0])}return{init:r}});
+//# sourceMappingURL=../sourcemaps/theme.js.map

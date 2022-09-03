@@ -1,0 +1,2 @@
+define(["knockout","service","jquery","config/config","underscore"],function(n,o,t,i,u){function e(){var t=this,u=g();t.loggedIn=n.observable(u),t.showLogout=function(){return 0!=i.HAS_LOGIN&&t.loggedIn()},t.logout=function(){showConfirm("confirm_logout",function(){manualLogout=!0,o.logout({},function(){window.location="index.html"})})}}function g(){return"loggedIn"==o.getLoginStatus().status}function c(){n.applyBindings(new e,t("#logout")[0])}return{init:c}});
+//# sourceMappingURL=../sourcemaps/logout.js.map

@@ -1,0 +1,152 @@
+Uri: http://192.168.0.3/favicon.ico
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: http://192.168.0.3/img/b-arrow.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\b-arrow.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/c-arrow.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\c-arrow.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/checkbox_in.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\checkbox_in.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/help.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\help.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_add_contact.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_add_contact.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_delete.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_delete.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_delete_hover.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_delete_hover.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_forward.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_forward.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_forward_hover.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_forward_hover.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_resend1.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_resend1.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_resend_hover.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_resend_hover.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/ico_time.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\ico_time.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/login_btn.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\login_btn.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/logoin-012.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\logoin-012.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/logo_zte.png?v=1522054654634
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\logo_zte.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/phone.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\phone.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/roaming.png?v=1522054654634
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\roaming.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/sms_full.gif
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\sms_full.gif
+Content Type: image/gif
+
+Uri: http://192.168.0.3/img/sms_unread.png?v=1522054654634
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\sms_unread.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/sort.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\sort.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/sort_down_focus.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\sort_down_focus.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/sort_up_focus.png
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\sort_up_focus.png
+Content Type: image/png
+
+Uri: http://192.168.0.3/img/update.gif
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\img\update.gif
+Content Type: image/gif
+
+Uri: http://192.168.0.3/index.html
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\index.html
+Content Type: text/html
+
+Uri: http://192.168.0.3/js/lib/require/require-jquery.js?v=1522054654633
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\js\lib\require\require-jquery.js
+Content Type: application/x-javascript
+
+Uri: http://192.168.0.3/theme/chosen.css?v=1522054654632
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\theme\chosen.css
+Content Type: text/css
+
+Uri: http://192.168.0.3/theme/common.css?v=1522054654632
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\theme\common.css
+Content Type: text/css
+
+Uri: https://opensource.ztedevices.com/
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\index.htm
+Content Type: text/html
+
+Uri: https://res-www.zte.com.cn/Asserts/Device/style/cookie.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\Device\style\cookie.css
+Content Type: text/css
+
+Uri: https://res-www.zte.com.cn/Asserts/DeviceGlobal/js/video/video-js.min.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\DeviceGlobal\js\video\video-js.min.css
+Content Type: text/css
+
+Uri: https://res-www.zte.com.cn/Asserts/DeviceGlobal/style/afterSale_details_mailserve.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\DeviceGlobal\style\afterSale_details_mailserve.css
+Content Type: text/css
+
+Uri: https://res-www.zte.com.cn/Asserts/DeviceGlobal/style/afterSale_Source.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\DeviceGlobal\style\afterSale_Source.css
+Content Type: text/css
+
+Uri: https://res-www.zte.com.cn/Asserts/DeviceGlobal/style/base.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\DeviceGlobal\style\base.css
+Content Type: text/css
+
+Uri: https://res-www.zte.com.cn/Asserts/DeviceGlobal/style/common.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\DeviceGlobal\style\common.css
+Content Type: text/css
+
+Uri: https://res-www.zte.com.cn/Asserts/DeviceGlobal/style/flexslider.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\DeviceGlobal\style\flexslider.css
+Content Type: text/css
+
+Uri: https://res-www.zte.com.cn/Asserts/Global/style/cookie.css
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\Asserts\Global\style\cookie.css
+Content Type: text/css
+
+Uri: https://ztedevices.com/
+File Name: C:\Users\Otmanee7\Documents\GitHub\scamas\192.168.0.3\index-1.htm
+Content Type: text/html
+

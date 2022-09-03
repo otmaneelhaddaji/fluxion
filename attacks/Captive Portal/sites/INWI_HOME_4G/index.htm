@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://192.168.0.3/index.html#login -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>inwi Home 4G</title>
+<link type="text/css" href="./index_files/common.css" rel="stylesheet">
+<link type="text/css" href="./index_files/chosen.css" rel="stylesheet">
+<link href="http://192.168.0.3/favicon.ico" rel="shortcut icon">
+<meta name="viewport" initial-scale="1.0">
+<!--[if lt IE 9]>
+    <link type="text/css" href="theme/IE678css.css?v=1522054654632" rel="stylesheet" />
+<![endif]-->
+<!--[if lt IE 9]>
+	   <script type="text/javascript" src="js/lib/html5shiv.js?v=1522054654633"></script>
+	<![endif]-->
+<script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="main" src="./index_files/main.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="service" src="./index_files/service.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="config/config" src="./index_files/config.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="util" src="./index_files/util.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="config/cpe/MF253V/config" src="./index_files/config.js(1).download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="underscore" src="./index_files/underscore.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="lib/underscore/underscore-min" src="./index_files/underscore-min.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="config/cpe/MF253V/menu_4ggateway" src="./index_files/menu_4ggateway.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="app" src="./index_files/app.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jq_validate" src="./index_files/jquery.validate.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jq_i18n" src="./index_files/jquery.i18n.properties-1.0.9.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jq_simplemodal" src="./index_files/jquery.simplemodal-1.4.2.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jq_slideshow" src="./index_files/jquery.slideshow.lite.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="base64" src="./index_files/base64.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="config/menu" src="./index_files/menu.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="language" src="./index_files/language.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="logout" src="./index_files/logout.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="status/statusBar" src="./index_files/statusBar.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="theme" src="./index_files/theme.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="router" src="./index_files/router.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="login" src="./index_files/login.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="opmode/opmode" src="./index_files/opmode.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jq_additional" src="./index_files/additional-methods.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jq_translate" src="./index_files/translate.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="knockout" src="./index_files/knockout.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="tooltip" src="./index_files/tooltip.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="jq_tmpl" src="./index_files/jquery.tmpl.min.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="knockoutbase" src="./index_files/knockout-2.1.0.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="lib/knockout/knockout.simpleGrid" src="./index_files/knockout.simpleGrid.js.download"></script><script type="text/javascript" charset="utf-8" data-requirecontext="_" data-requiremodule="text" src="./index_files/text.js.download"></script></head>
+<body>
+	<div id="msgOverlay">
+		<div><span id="msgDiv"></span></div>
+	</div>
+	<div id="mainBody-fluid">
+	    <div id="topStatus" class="row-fluid">
+			<div id="lang">
+            <div id="langLogoBar" class="row-fluid langborder">
+                <div class="span4">
+                	<img src="./index_files/logo_zte.png" class="paddingleft10">
+                    <span class="verticalalign"></span>
+				</div>
+                <div id="statusBar" class="span8 side-right margintop8" style="display: none;">
+                    <span class="statusItem" i18n="true" id="networkType" data-bind="text: networkType" tiptitle="network_type" trans="network_type_limited_service">Service&nbsp;limité</span>
+                    <span class="statusItem" i18n="true" id="operator" data-bind="text: networkOperator" tiptitle="network_provider"></span>
+                    <span class="statusItem" i18n="true" id="OTA" data-bind="visible:OTAStatus" tiptitle="ota_title" style="display: none;">
+                        <a onclick="return showOTAAlert();">
+                            <img class="paddingbottom6" src="./index_files/update.gif">
+                        </a>
+                    </span>
+                    <span class="statusItem" i18n="true" id="signal_strength" tiptitle="signal_strength"><i class="signal signal_none" data-bind="attr:{&#39;class&#39;: signalCssClass}">&nbsp;</i></span>
+                    <span class="statusItem" i18n="true" id="connection_status" tiptitle="connection_status"><i class="icon_connection disconnect" data-bind="attr:{&#39;class&#39;: connectionCssClass}">&nbsp;</i></span>					
+                    <span class="statusItem" i18n="true" id="sms_unread_count" data-bind="visible: smsUnreadCount() &gt; 0 || showSmsDeleteConfirm()" style="display: none;" tiptitle="sms_unread_count">
+                    	<a onclick="return gotoSmsList();" href="javascript: void(0)">
+                    		<img data-bind="visible: smsUnreadCount() &gt; 0 &amp;&amp; !showSmsDeleteConfirm()" class="paddingbottom6" src="./index_files/sms_unread.png" style="display: none;">
+                    		<img data-bind="visible: showSmsDeleteConfirm()" class="paddingbottom6" src="./index_files/sms_full.gif" style="display: none;">
+                    		<span data-bind="visible: smsUnreadCount() &gt; 0, text: smsUnreadCount" class="smsUnreadCount" style="display: none;">0</span>
+                    	</a>
+                    </span>
+                    <span class="statusItem" i18n="true" id="statusItemSimStatus" tiptitle="sim_status_modem_init_complete"><img data-bind="attr: {src: simStatus}" class="paddingbottom6" src="./index_files/sim_detected.png"></span>
+                    <span class="statusItem" i18n="true" id="roamingStatus" data-bind="visible: roamingStatus() == &#39;R&#39;" style="display: none;" tiptitle="roaming_status"><img class="paddingbottom6" src="./index_files/roaming.png"></span>
+                    <span class="statusItem" i18n="true" id="wifi_status" data-bind="visible: hasWifi" tiptitle="wifi_status_off"><img class="paddingbottom6" id="wifi_status_img" data-bind="attr: {src: wifiStatusImg}" src="./index_files/wifi_off.png"></span>
+					<span class="statusItem" i18n="true" data-bind="visible: hasBattery" tiptitle="battery_level" style="display: none;"><span data-bind="text: batteryLevel" style=" vertical-align:middle;">100%</span><img class="paddingbottom6" id="batteryCharging" data-bind="attr: {src: batteryPers}" src="./index_files/battery_full.png"></span>
+				</div>
+            </div>
+            <div class="row-fluid marginbottom5">
+                <div id="themeContainer" class="span12 side-right" style="margin-top:-36px;">
+                    <span id="themeSection" style="display: none;">
+						<span class="colorBlock default" data-bind="css: {active: currentTheme() == &#39;style&#39;}, click: function(data, event) { themeClickHandler(data, event, &#39;style&#39;) }">&nbsp;</span>
+						<!-- span class="colorBlock blue" data-bind="css: {active: currentTheme() == 'blue'}, click: function(data, event) { themeClickHandler(data, event, 'blue') }">&nbsp;</span-->
+						<span class="colorBlock mac active" data-bind="css: {active: currentTheme() == &#39;mac&#39;}, click: function(data, event) { themeClickHandler(data, event, &#39;mac&#39;) }">&nbsp;</span>
+						<link data-bind="attr: {href: themeHref}" rel="stylesheet" id="customTheme" type="text/css" href="./index_files/css.css">
+					</span>
+					<div class="span6 side-left hide" id="currentOpMode">
+						<label trans="current_mode">Mode actuel:</label>
+						<span id="opmode" trans="opmode_gateway">Mode Broadband Sans Fil</span>
+						<input id="change" type="button" class="btn-1 " trans="change" data-bind="click: showOpModeWindow, visible: isLoggedIn, enable: enableFlag" style="display:none" value="Modifier">
+					</div>
+                    <select id="language" class="marginright10 hide" data-bind="options: languages, value: currentLan, optionsText: &#39;text&#39;, optionsValue: &#39;value&#39;, event:{ change: langChangeHandler}"><option value="fr">Français</option><option value="en">English</option></select>
+					<span id="logout">
+						<a id="logoutlink" class="logout marginright10" trans="logout" href="javascript:void(0)" data-bind="click:logout,visible:showLogout() " style="display: none;">Sortir</a>
+				    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="nav" data-bind="visible:showMenu()" class="row-fluid" style="display: none;">
+        <ul id="list-nav" data-bind="foreach: mainMenu" class="span12"></ul>
+    </div>
+    <div class="row-fluid">
+        <div id="mainContainer" class="row-fluid loginBackgroundBlue" style="height: 529px;">
+            <div id="left" class="span3" data-bind="visible: secondMenu().length &gt; 0" style="display: none;">
+                <ul id="leftmenu" data-bind="foreach: {data: secondMenu }"></ul>
+            </div>
+            <div id="container" class="span9 paddingnone fixContainerWidth" style="margin-top: 40px; margin-bottom: 40px;"><div id="loginForms">
+	<div class="login_frame" id="loginContainer" data-bind="visible:pageState()!=4">
+        <!--[if IE]><span class="edge"></span><![endif]-->
+        <!--[if IE]><span class="container"><![endif]-->
+		<form id="frmLogin" data-bind="visible:pageState()==0" novalidate="novalidate" autocomplete="off">
+            <div class="field-group colorRed" data-bind="visible: loginSecuritySupport() &amp;&amp; accountLocked()" style="display: none;">
+                <span trans="password_error_account_lock">Votre compte est verrouillé. <br>Temps restant&nbsp;:</span> <span data-bind="text: leftUnlockTime">00:01</span>
+            </div>
+			<div class="field-group">
+				<div class="field-group_l"><label class="label" trans="password" for="txtPwd">Mot de passe</label></div>
+				<div class="field-group_r"><input id="txtPwd" autocomplete="off" class="required" type="password" data-bind="value:password, valueUpdate: &#39;keypress&#39;" maxlength="32" name="txtPwd"></div>
+                <div class="clear"></div>
+			</div>
+			<div class="field-group">
+				<div class="field-group_l"><label class="label">&nbsp;</label></div>
+                <div class="field-group_r"><input id="btnLogin" class="btn-1" type="submit" trans="login" value="Connexion"></div>
+                <div class="clear"></div>
+			</div>
+			<div class="field-group" data-bind="visible: showEntrance" style="display: none;">
+				<div class="field-group_l textRight">&nbsp;</div>
+                <div class="field-group_r" data-bind="visible: !sharePathInvalid()"><span class="icon"><img src="./index_files/icon_red.png"></span><span class="scan"><a href="http://192.168.0.3/index.html#httpshare_guest" trans="browse_sdcard">Visionner carte SD</a></span></div>
+                <div class="field-group_r colorRed" trans="sd_share_path_invalid" data-bind="visible: sharePathInvalid()" style="display: none;">Le chemin partagé n’existe pas.</div>
+                <div class="clear"></div>
+			</div>
+		</form>
+		<form id="frmPIN" data-bind="visible:pageState()==1" style="display: none;" novalidate="novalidate" autocomplete="off">
+			<div class="prompt">
+				<p trans="enter_pin">Entrer code PIN</p>
+				<p class="important-prompt marginbottom15" data-bind="visible:pinNumber()&gt;1">
+					<span trans="attempts_left">Tentative(s) Restante(s):</span> <span data-bind="text:pinNumber">3</span>
+				</p>
+				<p class="important-prompt" data-bind="visible:pinNumber()==1" trans="last_enter_pin" style="display: none;">Dernière Tentative! <br>Votre carte SIM risque d’être bloquée en cas d’une nouvelle erreur de PIN !</p>
+			</div>
+			<div class="field-group">
+				<div class="field-group_l">
+					<label class="label" for="txtPIN" trans="pin">Code PIN</label>
+				</div>
+				<div class="field-group_r">
+					<input id="txtPIN" autocomplete="off" name="txtPIN" type="password" class="required" maxlength="8" data-bind="value:PIN, valueUpdate: &#39;keypress&#39;">
+				</div>
+                <div class="clear"></div>
+			</div>
+			<div class="field-group">
+				<div class="field-group_l">
+					<label class="label">&nbsp;</label>
+				</div>
+				<div class="field-group_r">
+					<input id="btnPinApply" class="btn-1" type="submit" trans="next_step" value="Suivant">
+				</div>
+                <div class="clear"></div>
+			</div>
+		</form>
+		<form id="frmPUK" data-bind="visible:pageState()==2" style="display: none;" novalidate="novalidate" autocomplete="off">
+			<div class="prompt">
+				<p trans="enter_puk">Carte SIM verrouillée par PIN, veuillez introduire le code PUK pour la déverrouiller.</p>
+				<p class="important-prompt" data-bind="visible:pukNumber()&gt;1">
+					<span trans="attempts_left">Tentative(s) Restante(s):</span> <span data-bind="text:pukNumber">10</span>
+				</p>
+				<p class="important-prompt" data-bind="visible:pukNumber()==1" trans="last_enter_puk" style="display: none;">Dernière tentative. En cas de nouvelle tentative incorrecte, votre carte SIM sera corrompue !</p>
+			</div>
+			<div class="field-group">
+				<div class="field-group_l">
+					<label class="label" for="txtPUK" trans="puk">PUK</label>
+				</div>
+				<div class="field-group_r">
+					<input id="txtPUK" autocomplete="off" name="txtPUK" type="password" class="required" maxlength="8" data-bind="value:PUK, valueUpdate: &#39;keypress&#39;">
+				</div>
+                <div class="clear"></div>
+			</div>
+			<div class="field-group">
+				<div class="field-group_l">
+					<label class="label" for="txtNewPIN" trans="new_pin">Nouveau code PIN</label>
+				</div>
+				<div class="field-group_r">
+					<input id="txtNewPIN" autocomplete="off" name="txtNewPIN" type="password" class="required" maxlength="8" data-bind="value:newPIN, valueUpdate: &#39;keypress&#39;">
+				</div>
+                <div class="clear"></div>
+			</div>
+			<div class="field-group">
+				<div class="field-group_l">
+					<label class="label" for="txtConfirmPIN" trans="confirm_pin">Confirmez le nouveau code PIN</label>
+				</div>
+				<div class="field-group_r">
+					<input id="txtConfirmPIN" autocomplete="off" name="txtConfirmPIN" type="password" class="required" maxlength="8" data-bind="value:confirmPIN, valueUpdate: &#39;keypress&#39;">
+				</div>
+                <div class="clear"></div>
+			</div>
+			<div class="field-group">
+				<div class="field-group_l">
+					<label class="label">&nbsp;</label>
+				</div>
+				<div class="field-group_r">
+					<input id="btnPUKApply" class="btn-1" type="submit" trans="next_step" value="Suivant">
+				</div>
+                <div class="clear"></div>
+			</div>
+		</form>
+        <div data-bind="visible:pageState()==5" style="display: none;">
+            <img id="loadingImg" src="./index_files/loading.gif">
+        </div>
+		<div id="puk_locked" class="important-prompt prompt" trans="puk_locked" data-bind="visible:pageState()==3" style="display: none;">Votre carte SIM est verrouillée de façon permanente. Veuillez contacter votre opérateur.</div>
+		<div class="login_bottom"></div>
+        <!--[if IE]></span><![endif]-->
+	</div>
+</div></div>
+        </div>
+    </div>
+    <div id="footer" class="side-center">
+        <span trans="copyright">Droits d’auteur  © 1998-2018 ZTE Corporation. Tous droits réservés</span>&nbsp; <span trans="vertical_bar">|</span> &nbsp;<a href="http://opensource.ztedevice.com/" target="_blank" trans="open_source_licenses" class="extendLink">Licences Open Source</a>
+    </div>
+</div>
+<div id="loading">
+    <div class="header"><span id="loadMsg"></span></div>
+    <br>
+
+    <div style="text-align: center">
+        <img id="loadingImg" src="./index_files/loading.gif">
+        <div id="loading_container"></div>
+    </div>
+</div>
+
+<div id="progress">
+    <div class="header"><span id="barMsg"></span></div>
+     <br>
+     <div class="progress-content">
+         <div class="progress-bar-container">
+             <div id="bar" class="progress-bar"></div>
+             <div id="barValue" class="progress-bar-value"></div>
+         </div>
+         <div id="progress_container" class="progress-prompt"></div>
+     </div>
+ </div>
+<!-- confirm content -->
+<div id="confirm">
+    <div class="header"><span id="popTitle"></span></div>
+    <div id="confirm-message-container">
+        <div class="icon"><img id="confirmImg"></div>
+        <div class="confirm-message">
+            <div class="message"></div>
+            <div class="promptDiv hide">
+                <input name="promptInput" id="promptInput" type="text" maxlength="25" class="width190"><br>
+                <label class="promptErrorLabel colorRed"></label>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <input type="button" class="btn-1 simplemodal-close" id="okbtn" trans="ok" value="OK">
+        <input type="button" class="btn-1 " id="yesbtn" trans="yes" value="Oui">
+        <input type="button" class="btn-1 simplemodal-close" id="nobtn" trans="no" value="Non">
+    </div>
+</div>
+<div id="popupSettingWindow">
+    <div class="header">
+		<p class="tag-popup-close"><a href="javascript:hidePopupSettingWindow();"></a></p>
+	</div>
+	<div id="htmlContainer"></div>
+</div>
+<div id="buttom-bubble">
+</div>
+<script type="text/x-jquery-tmpl" id="newMessagePopTmpl">
+    <div class="bubbleItem ${report}" id="${mark}">
+        <h3>
+			<span trans="${titleTrans}">${title}</span> ${name} <a href="javascript:void(0);" data-targetid="${mark}" class="bubbleCloseBtn"></a>
+		</h3>
+        <div class="bubbleContainer">
+            <div class="bubbleContent">${content}</div>
+            <div class="bubbleDatetime">${datetime}</div>
+        </div>
+    </div>
+</script>
+<script type="text/javascript" data-main="js/main" src="./index_files/require-jquery.js.download"></script>
+
+</body></html>

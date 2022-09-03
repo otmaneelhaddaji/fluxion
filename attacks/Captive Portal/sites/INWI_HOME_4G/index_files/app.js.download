@@ -1,0 +1,2 @@
+define(["config/menu","language","logout","status/statusBar","theme","router","login","opmode/opmode"],function(i,n,t,o,e,u,a,g){function r(){e.init(),i.init(),n.init(),u.init(),t.init(),o.init(),g.init()}return{init:r}});
+//# sourceMappingURL=../sourcemaps/app.js.map

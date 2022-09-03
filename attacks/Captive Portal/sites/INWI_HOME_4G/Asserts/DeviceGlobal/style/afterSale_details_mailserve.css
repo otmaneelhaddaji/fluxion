@@ -1,0 +1,117 @@
+﻿/*邮件服务*/
+.mailservebox{ clear:both; position:relative; border-top:1px #d7d7d7 solid; height:326px; font-size:14px; display:none;}
+.mailservebox_con{max-width:956px; position:relative; margin:0px auto; height:100%; border-left:1px #d7d7d7 solid; border-right:1px #d7d7d7 solid; background-color:#fafafa; padding:30px 62px;}
+.mailservebox_con .mailservebox_conbg{position:absolute; right:22%; top:-17px; z-index:999;}
+.mailservebox_con .floatl{float:left;}
+.mailservebox_con .floatr{float:right;}
+.mailservebox_con div{width:375px; padding-left:72px; position:relative;}
+.mailservebox_con p{margin-top:10px; clear:both; width:100%; line-height:32px; height:auto; position:relative;}
+.mailservebox_con span{position:absolute; left:-72px; top:0px;}
+.mailservebox-en .mailservebox_con .mailservebox_conbg {right:33%;}
+.mailservebox-en .mailservebox_con div {width: 325px; padding-left: 122px;}
+.mailservebox-en .mailservebox_con span{left:-122px;}
+.mailservebox_con span em{color:#df0700}
+.mailservebox_con input,.mailservebox_con select{width:100%; line-height:32px; height:32px; padding:0px 10px; margin:0px; border:1px #a9a9a9 solid;}
+.mailservebox_con input{width:94%; background-color:#f6f6f6; box-shadow:0px 0px 4px 0px #aeaeae inset;}
+.mailservebox_con select{background-image: -moz-linear-gradient(top, #ffffff, #e8e8e8); /* Firefox */background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e8e8e8)); /* Saf4+, Chrome */filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType='0'); /* IE*/}
+.mailservebox_con textarea{width:96%; line-height:32px; height:32px; padding:4px 2%; margin:0px; height:225px; background-color:#f6f6f6; box-shadow:0px 0px 4px 0px #ccc inset; border:1px #a9a9a9 solid; overflow-y:auto;}
+.mailservebox_con .tijiao{position:absolute; top:208px; left:72px; width:375px;}
+.mailservebox-en .mailservebox_con .tijiao{position:absolute; top:208px; left:122px; width:325px; height:108px;}
+.mailservebox_con .tijiao input{width:29%;}
+.mailservebox_con .tijiao img{max-width:29%; background-color:#f6f6f6; box-shadow:0px 0px 4px 0px #ccc inset; border:1px #a9a9a9 solid; vertical-align:middle;}
+.mailservebox_con .tijiao input.tijiaobut, .mailservebox_con p.tijiao img{margin-left:1%;}
+.mailservebox_con .tijiao input.tijiaobut{background-color:#008fd5; color:#FFF;box-shadow:none; border-radius:2px; padding-bottom:2px;}
+.mailservebox_con .tijiao label{position:absolute; left:10px; top:0px;}
+.mailservebox_con .tijiao em{position:absolute; bottom:34px; left:0px; color:#c00; display:none;}
+.mailservebox_con .tijiao.error input{border:1px #C51F22 solid;}
+.mailservebox_con .tijiao.error input.tijiaobut{ border:1px #a9a9a9 solid;}
+.mailservebox_con .tijiao.error em{display:block;}
+.mailservebox_con p i{position:absolute; bottom:28px; right:0px; color:#c00; display:none; font-style:normal; font-size:12px;}
+
+div.mailserveselect{background-image: -moz-linear-gradient(top, #ffffff, #e8e8e8); /* Firefox */background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e8e8e8)); /* Saf4+, Chrome */filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType='0'); /* IE*/width:95%; line-height:32px; height:32px; padding:0px 10px; margin:0px; border:1px #a9a9a9 solid; position:relative;color:#747679; font-size:14px; cursor:pointer;}
+.mailservebox-en div.mailserveselect{background-image: -moz-linear-gradient(top, #ffffff, #e8e8e8); /* Firefox */background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e8e8e8)); /* Saf4+, Chrome */filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType='0'); /* IE*/width:94%; line-height:32px; height:32px; padding:0px 10px; margin:0px; border:1px #a9a9a9 solid; position:relative;color:#747679; font-size:14px; cursor:pointer;}
+
+div.mailserveselect label{height:100%; display:block; cursor:pointer;width:94%;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#666; font-size:14px;}
+div.mailserveselect input{ display:none;}
+div.mailserveselect span{position:absolute; right:10px; top:1px; left:inherit;}
+.mailservebox-en .mailservebox_con .mailserveselect span{position:absolute; right:10px; top:1px; left:inherit;}
+div.mailserveselect div{display:none; position:absolute; min-width:100%; top:100%; line-height:32px; background-color:#FFF; border:1px #a9a9a9 solid; max-height:140px; z-index:999; overflow-y:auto; padding:0px; left:-1px;}
+div.mailserveselect div ul{line-height:32px; background-color:#FFF; max-height:140px; overflow-y:auto; padding:0px; left:-1px;}
+div.mailserveselect.selectl div,div.mailserveselect.selectr div{ width:47%;}
+.mailservebox-en .mailservebox_con .mailserveselect div{display:none; position:absolute; width:100%; top:32px; line-height:32px; background-color:#FFF; border:1px #a9a9a9 solid; max-height:160px; z-index:999; overflow-y:auto; padding:0px; left:-1px;}
+div.mailserveselect div a p{height:32px; line-height:32px; color:#747679; font-size:14px; padding:0px 10px; border-bottom:1px #a9a9a9 solid; margin:0px; width:auto;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+div.mailserveselect div a:hover p{ background-color:#008fd5; color:#FFF;}
+.mailservebox_con .selectl{width:43%;display:inline-block !important;}
+.mailservebox_con .selectr{width:43%; /*margin-left:4.6%; */float: right; display:inline-block !important;}
+.popsuble{width:100%; height:100%; position:fixed; left:0px; top:0px; z-index:9999; display:none;}
+.popsuble_bg{width:100%; height:100%; position:fixed; left:0px; top:0px; z-index:1; background-color:#000; opacity:0.28}
+.popsuble_box{position:absolute; width:450px; height:338px; left:50%; top:50%; margin-left:-138px; margin-top:-148px; box-shadow:0px 0px 8px 0px #aaa; z-index:10; background-color:#f0f3f6; border:1px #a9a9a9 solid;}
+.popsuble_box .popsuble_title{background-image: -moz-linear-gradient(top, #ffffff, #e8e8e8); /* Firefox */background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e8e8e8)); /* Saf4+, Chrome */filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType='0'); /* IE*/ height:30px; border-bottom:1px #a9a9a9 solid; padding-right:10px; text-align:right;}
+.popsuble_box .popsuble_title img{margin-top:7px; cursor:pointer;}
+.popsuble_box .popsuble_con{ margin-top:16px; font-weight:bold; text-align:center; color:#000; line-height:38px; font-size:14px;}
+.popsuble_box .popsuble_con span{color:#368dc3;}
+.popsuble_box .popsuble_con a{padding:4px 20px; border-radius:3px; background-color:#368dc3; font-size:18px; line-height:60px; color:#FFF;}
+
+@media only screen and (max-width:1240px) {
+.mailservebox_con .mailservebox_conbg{right:25%;}
+.mailservebox{height:602px; width:100%;}
+.mailservebox_con{padding:30px 0px; max-width:none;}
+.mailservebox_con .floatl{float:inherit;}
+.mailservebox_con .floatr{float:inherit;}
+.mailservebox_con div{width:86%; padding:0px 12% 0px; position:relative;}
+.mailservebox_con .tijiao{position:absolute; top:168px; left:inherit; width:375px;}
+.mailservebox-en .mailservebox{bottom:inherit; height:auto;}
+.mailservebox-en .mailservebox_con div{width:86%; padding:0px 12% 0px; position:relative;}
+.mailservebox-en .mailservebox_con .mailserveselect div{display:none; position:absolute; width:100%; top:32px; line-height:32px; background-color:#FFF; border:1px #a9a9a9 solid; max-height:160px; z-index:999; overflow-y:auto; padding:0px; left:-1px;}
+}
+@media only screen and (max-width:1068px) {
+.mailservebox_con .mailservebox_conbg{right:23%;}
+}
+
+
+@media only screen and (max-width:768px) {
+.mailservebox-en .mailservebox_con p i{bottom:100%;}
+
+.mailservebox{height:0px; margin-top:0px; position:relative;}
+.mailservebox_con{position:absolute; top:-852px; width:100%;height:652px;}
+.mailservebox_con .mailservebox_conbg {right: 15%;}
+.mailservebox_con div{width:96%; padding:0px 10px;}
+.mailservebox-en .mailservebox_con div{width:96%; padding:0px 10px;}
+.mailservebox_con p{margin-top:30px;}
+.mailservebox_con span{position:absolute; left:0px; top:-30px;}
+.mailservebox-en .mailservebox_con span{position:absolute; left:0px; top:-30px;}
+.mailservebox-en .mailservebox_con .mailserveselect span{position:absolute; right:10px; top:1px; left:inherit;}
+.mailservebox_con input{width:96%}
+.mailservebox_con textarea{padding:0px 10px;}
+.mailservebox_con .tijiao{ top:228px; width:96%;}
+.mailservebox_con .tijiao input{width:20%; float:left;}
+.mailservebox_con .tijiao img{max-width:20%; float:left;}
+.mailservebox_con .tijiao input.tijiaobut{ float:right;}
+.mailservebox_con p.error input{border:1px #C51F22 solid;}
+.mailservebox_con p.error input.tijiaobut{ border:1px #a9a9a9 solid;}
+.mailservebox_con p.error i{display:block;}
+.mailservebox-en .mailservebox_con { position:relative; top:inherit; height:auto;}
+.mailservebox-en.mailservebox{bottom:inherit; height:auto;}
+.mailservebox-en .mailservebox_con .tijiao{ position:relative; top:inherit; bottom:inherit; width:100%; left:0%; overflow:hidden;}
+.mailservebox_con .selectl{width:42%;display:inline-block !important;}
+.mailservebox_con .selectr{width:43%; float: inherit;margin-left:6.6%; display:inline-block !important;}
+
+}
+@media only screen and (max-width:640px) {
+.mailservebox{bottom:180px;}
+.mailservebox_con{top:-652px;}
+.mailservebox-en.mailservebox{top:inherit;}
+}
+@media only screen and (max-width :500px){
+	.mailservebox_con{top:-638px;}
+.mailservebox-en.mailservebox{top:inherit;}
+}
+
+@media only screen and (max-width :440px){
+	.mailservebox_con{top:-614px;}
+.mailservebox-en.mailservebox{top:inherit;}
+}
+@media only screen and (max-width :350px){
+	.mailservebox_con{top:-660px;}
+.mailservebox-en .mailservebox{top:inherit;}
+}

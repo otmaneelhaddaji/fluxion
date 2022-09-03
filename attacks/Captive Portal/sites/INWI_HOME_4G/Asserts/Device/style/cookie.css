@@ -1,0 +1,83 @@
+.cookieCon{
+	    width: 100%; 
+	    background: #E9E9E9; 
+	    
+	}
+.cookieTip{ 
+    padding: 15px 0; 
+    box-sizing: border-box;
+    overflow: auto;
+    zoom: 1; 
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    /*display: none;*/ 
+   
+    font-size: 14px;
+	max-width: 860px;
+    margin: auto;
+    
+}
+.cookieTip div:first-child{
+	line-height: 1.6rem;
+    max-width: 70%; /*660px;*/ 
+	float: left;
+	padding-left: 17px;
+}
+.cookieTip div:first-child h1{
+	color: #666666;
+	font-size: 14px;
+    font-family: 'Arial Negreta', 'Arial';
+	font-weight: 700;
+    text-align: center;
+}
+.policyOperate{ 
+	display: inline-block; 
+	width: 160px;
+	float: right;
+	color: #308AB5;  
+    font-family: 'Arial Negreta', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px;
+	padding-top: 16px;
+}
+.policyOperate p{
+	padding-left: 25px; 
+	cursor: pointer;
+}
+    .policyOperate .agreeCookie {
+        background: url('../images/common/agreeCookie.png') no-repeat -3px -1px;
+    }
+    .policyOperate .disagreeCookie {
+        background: url('../images/common/disagreeCookie.png') no-repeat 0px 5px;
+    }
+    .policyOperate .infoCookie {
+        background: url('../images/common/infoCookie.png') no-repeat -3px -5px;
+    }
+
+@media only screen and (max-width:1023px) {
+    .downAndUp1024 {
+        display: block !important;
+    }
+}
+ 
+@media only screen and (max-width:860px) {
+	.policyOperate{ 
+		/*width: 100%;*/
+        min-width: 170px;
+	}
+	.policyOperate p{
+		float: left;
+		margin-left: 17px;
+        margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width:425px) {
+	.policyOperate p{
+		
+		clear: both;
+	}
+}
